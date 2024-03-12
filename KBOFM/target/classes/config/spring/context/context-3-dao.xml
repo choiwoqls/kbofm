@@ -4,6 +4,12 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
+	<bean id="teamDao" class="dao.team.TeamDAO">
+		<constructor-arg ref="sqlSession"/>
+	</bean>
+	
+	
+	
 	
 	
 	

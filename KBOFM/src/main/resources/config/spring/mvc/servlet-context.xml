@@ -16,7 +16,7 @@
 		base-package="com.increpas.kbofm" />
 		
 	<beans:bean class="controller.LoginController">
-	
+		<beans:constructor-arg ref="teamService"/>
 	</beans:bean>
 
 

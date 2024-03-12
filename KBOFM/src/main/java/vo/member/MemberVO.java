@@ -1,38 +1,38 @@
-package vo.user;
+package vo.member;
 
 import java.sql.Date;
 
-public class UserVO {
+public class MemberVO {
 
-	private int user_seq;
+	private int member_seq;
 	private String nickname;
-	private String user_id;
+	private String member_id;
 	private String password;
 	private String email;
 	private String profile_img;
 	private int home_team;
 	private Date join_date;
 	
-	public UserVO() {
+	public MemberVO() {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public UserVO(int user_seq, String nickname, String user_id, String password, String email,int home_team,Date join_date) {
-		this.user_seq=user_seq;
+	public MemberVO(int member_seq, String nickname, String member_id, String password, String email,int home_team,Date join_date) {
+		this.member_seq=member_seq;
 		this.nickname=nickname;
-		this.user_id=user_id;
+		this.member_id=member_id;
 		this.password=password;
 		this.email=email;
 		this.home_team=home_team;
 		this.join_date=join_date;
 	}
 
-	public int getUser_seq() {
-		return user_seq;
+	public int getmember_seq() {
+		return member_seq;
 	}
 
-	public void setUser_seq(int user_seq) {
-		this.user_seq = user_seq;
+	public void setmember_seq(int member_seq) {
+		this.member_seq = member_seq;
 	}
 
 	public String getNickname() {
@@ -43,12 +43,12 @@ public class UserVO {
 		this.nickname = nickname;
 	}
 
-	public String getUser_id() {
-		return user_id;
+	public String getMember_id() {
+		return member_id;
 	}
 
-	public void setUser_id(String user_id) {
-		this.user_id = user_id;
+	public void setMember_id(String member_id) {
+		this.member_id = member_id;
 	}
 
 	public String getPassword() {
